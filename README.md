@@ -1,2 +1,2 @@
 # Basic React App 
-studying fundamentals of React
+studying fundamentals of React!
