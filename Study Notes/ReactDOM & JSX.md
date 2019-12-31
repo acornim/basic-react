@@ -1,4 +1,4 @@
-DAY 1 : What is React?
+# DAY 1
 # What is React?
 - Component
 - JSX
