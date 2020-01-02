@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar(){
     return (
-        <p>hi i'm a navbar</p>
+        <header className='navbar'>hi i'm a navbar</header>
     )
 }
 export default Navbar;

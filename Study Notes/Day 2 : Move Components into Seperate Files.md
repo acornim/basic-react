@@ -1,7 +1,7 @@
 # Move Components into Seperate Files
 RULE
 React files : Start with Capital letter 
-
+- component는 html을 리턴!! 
 
 ## index.js
 - Don't forget to import your own component's path
