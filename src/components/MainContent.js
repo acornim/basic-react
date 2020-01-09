@@ -1,25 +1,41 @@
 import React from 'react'
+import ToDoList from './ToDoList'
+import ContactCard from './ContactCard'
 function MainContent(){
-   const date = new Date()
-   const hours = date.getHours()
-   let timeOfDay 
-   const styles = {
-    backgroundColor : "#32376b",
-    fontSize : 24
-}
-   if(hours<12){
-       timeOfDay = "morning"
-       styles.color = "#1abc9c"
-   } else if(hours>=12 && hours<17){
-       timeOfDay = "afternoon"
-       styles.color = "#e74c3c"
-   } else {
-       timeOfDay = "night"
-       styles.color = "#2c3e50"
-   }
    
     return (
-    <h1 style={styles}>it's {hours % 12} o'clock. good {timeOfDay}</h1>
+    // <div className="todo-list">
+    // <ToDoList/>
+    // <ToDoList/>
+    // <ToDoList/>
+    // </div>
+
+    <div className="contacts">
+        <ContactCard 
+        contacts ={{name : "soyun", imgUrl:"http://placekitten.com/400/200",contact:"111-1111-1111",email:"dd@gmail.com" }}
+        
+        />
+        {/* <ContactCard 
+        name = "kim"
+        contact = "111-1111-1234"
+        email = "123@gmail.com"
+        imgUrl = "http://placekitten.com/400/200"
+        />
+         
+         <ContactCard 
+        name = "lee"
+        contact = "111-2222-3333"
+        email = "asdfg@gmail.com"
+        imgUrl = "https://ichef.bbci.co.uk/news/660/cpsprodpb/BEEB/production/_108557884_gettyimages-486237421.jpg"
+        />
+         <ContactCard 
+        name = "park"
+        contact = "111-2234-5667"
+        email = "qwer@gmail.com"
+        imgUrl = "https://ichef.bbci.co.uk/news/660/cpsprodpb/BEEB/production/_108557884_gettyimages-486237421.jpg"
+        /> */}
+    </div>
+    
    )
 }
 export default MainContent;
