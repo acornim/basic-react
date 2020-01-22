@@ -28,3 +28,13 @@ const date = new Date()
     <h1 style={styles}>it's {hours % 12} o'clock. good {timeOfDay}</h1>
    )
 ```
+
+- 조건문으로 스타일링도 가능하다. question prop이 없다면 첫번째 줄 h3은 출력되지 않고 두번째줄 색상도 바뀐다.
+```
+<h3 style={{display:!props.question && "none"}}>Question: {props.question}</h3>
+<h3 style={{color: !props.question && "#888888"}}>Answer: {props.punchline}</h3>
+```
+이 코드는 아래와 같다. 
+```
+display:props.question ? "blocked" : "none"
+```
