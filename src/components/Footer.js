@@ -1,8 +1,9 @@
 import React from 'react'
 
-function Footer(){
+function Footer (){
     return (
-        <p>this is footer</p>
-    )
+        <p className='footer'>footer</p>
+    );
 }
+
 export default Footer;

@@ -1,44 +1,10 @@
+나중에 쓸 css 코드 
+```
 body {
-    margin: 0;
     background-color: whitesmoke;
 }
-.contacts {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.contact-card{
-    flex-basis: 250px;
-    margin: 20px;
-}
-.contact-card > img {
-width: 100%;
-height: auto;
-}
-.footer {
-    height: 100px;
-    background-color: olive;
-    color: whitesmoke;
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.navbar {
-    height: 100px;
-    background-color: #333;
-    color: whitesmoke;
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.todo-list{
+.todo-list {
     background-color: white;
     margin: auto;
     width: 50%;
@@ -60,7 +26,7 @@ height: auto;
     padding: 30px;
 }
 
-.todo-item{
+.todo-item {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -81,3 +47,4 @@ input[type=checkbox] {
 input[type=checkbox]:focus {
     outline: 0;
 }
+```
