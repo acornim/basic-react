@@ -7,6 +7,7 @@
 this.handleClick = this.handleClick.bind(this)
 ```
 - this 쓰는 거 잊지말자!
+- return도 해줘야지!
 ```
 import React from 'react'
 
